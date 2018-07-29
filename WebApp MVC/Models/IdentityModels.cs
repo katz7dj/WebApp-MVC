@@ -29,5 +29,7 @@ namespace WebApp_MVC.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<WebApp_MVC.Models.Book> Books { get; set; }
     }
 }
